@@ -1,0 +1,10 @@
+.home {
+    margin: 0px;
+    height: 100%;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #1B4164 0.66%, #383838 32.1%, #000000 62.08%, #12142B 97.25%);
+}
