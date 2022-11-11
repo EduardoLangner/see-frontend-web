@@ -1,0 +1,29 @@
+.card {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-content {
+    padding: 10px 10px 10px 10px;
+    display: grid;
+}
+
+.card-informations{
+    display: flex;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    width: 50%;
+}
+
+.card-time {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    width: 50%;
+}
