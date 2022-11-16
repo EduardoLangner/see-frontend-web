@@ -1,19 +1,23 @@
 import React from "react"
+import image from "../../../assets/image22.png"
 import './index.css'
 
-const Card = () => {
+const Card = (props) => {
     return (
         <div className="card">
             <div className="card-content">
                 <div className="card-image">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPgDJ8e2Hx-0O8NfXfWXqb4pmE7pln_J8ZiWt_fqAgcRgZrRPvIKNeyacc4_4q0yjSogk&usqp=CAU" alt="car" />
+                    <img src={image} alt="car" />
                 </div>
                 <div className="card-informations">
                     <div className="card-title">
-                        <p>Ximbalaie</p>
+                        <span className='card-text'>
+                            {/* {props.children} */}
+                            nome
+                        </span>
                     </div>
                     <div className="card-time">
-                        <p>12:00</p>
+                        <p>144min</p>
                     </div>
                 </div>
             </div>
